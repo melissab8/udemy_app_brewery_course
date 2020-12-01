@@ -23,7 +23,15 @@ console.log(loveCalc);
     loveCalc = loveCalc * 100;
     loveCalc = Math.floor(loveCalc) + 1;
 
-    alert ("The love match for " + nameOne + " and " + nameTwo + " is " + loveCalc + "%");
+    //adding control flow to the function
+    if ( loveCalc > 70){
+        alert ("The love match for " + nameOne + " and " + nameTwo + " is " + loveCalc + "%. This is a match made in heaven!");
+    } else {
+        alert ("The love match for " + nameOne + " and " + nameTwo + " is " + loveCalc + "%");
+
+    }
+
+    
 
 
     console.log(loveCalc);
