@@ -9,6 +9,17 @@ loveCalc = loveCalc * 100;
 loveCalc = Math.floor(loveCalc) + 1;
    
   
-
 console.log(loveCalc);
  
+
+
+
+
+    var nameOne = prompt ("What is your name?");
+    alert ("Hi " + nameOne);
+    var nameTwo = prompt ("what is your partners name?");
+
+    alert ("The love match for " + nameOne + " and " + nameTwo + " is " + loveCalc + "%");
+
+
+
