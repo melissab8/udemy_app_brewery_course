@@ -1,6 +1,6 @@
 //create a random generator love calculator
 
-
+/*
 //using 'Math.random' create a random number generator
 var loveCalc = Math.random();
 // As i want this to be a percentage up to 100 i have to multiply by 100 
@@ -11,15 +11,19 @@ loveCalc = Math.floor(loveCalc) + 1;
   
 console.log(loveCalc);
  
+*/
 
 
 
 
     var nameOne = prompt ("What is your name?");
-    alert ("Hi " + nameOne);
     var nameTwo = prompt ("what is your partners name?");
+
+    var loveCalc = Math.random();
+    loveCalc = loveCalc * 100;
+    loveCalc = Math.floor(loveCalc) + 1;
 
     alert ("The love match for " + nameOne + " and " + nameTwo + " is " + loveCalc + "%");
 
 
-
+    console.log(loveCalc);
